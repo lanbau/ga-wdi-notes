@@ -1,0 +1,5 @@
+atom . -> open whole directory in text editor
+git push origin master
+git remote -v
+command k -> clear
+ipv6
