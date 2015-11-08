@@ -1,0 +1,4 @@
+heroku login
+cd node-js-getting-started
+heroku open
+heroku local

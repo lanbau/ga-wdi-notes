@@ -1,0 +1,27 @@
+function range(start, end) {
+    var foo = [];
+    for (var i = start; i <= end; i++) {
+        foo.push(i);
+    }
+    return foo;
+}
+var foo = range(1,101)
+foo.forEach(function(num){
+  if(num%3) console.log('fizz')
+  if(num%5) console.log('buzz')
+  if(num%3 && num%5) console.log('fizzbuzz')
+})
+
+
+/*
+var bar = Array[]
+while (bar[bar.length - 1] !== 101){
+  bar.forEach(function(i){
+    bar.push(i)
+    console.log(i)
+    i++
+  })
+
+}
+
+*/
